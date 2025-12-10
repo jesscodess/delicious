@@ -7,7 +7,7 @@ Scaffolded with Vite, it utilizes React, node.js, styled components, splide, amo
 
 ---
 
-Aplicação simples que retorna receitas de uma API com base em uma palavra-chave, exibindo receitas com fotos, lista de ingredientes and modo de preparo.
+Aplicação simples que retorna receitas de uma API com base em uma palavra-chave, exibindo receitas com fotos, lista de ingredientes e modo de preparo.
 
 Projeto feito com a orientação [deste tutorial](www.youtube.com/watch?v=xc4uOzlndAk), criado por [Simo Edwin](https://github.com/developedbyed/) e publicado em seu canal [developedbyed](www.youtube.com/@developedbyed). Foi ligeiramente adaptado, pois o projeto original não utilizava Vite.
 
