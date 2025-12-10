@@ -1,16 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple application that fetches recipes from an API based on a keyword and displays said recipe, including a photo, ingredient list and instructions.
 
-Currently, two official plugins are available:
+Project made with the guidance of [this tutorial](www.youtube.com/watch?v=xc4uOzlndAk) by [Simo Edwin](https://github.com/developedbyed/) and published in his channel [developedbyed](www.youtube.com/@developedbyed). It was slightly adapted as the original code was not scaffolded with Vite.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Scaffolded with Vite, it utilizes React, node.js, styled components, splide, among others.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Aplicação simples que retorna receitas de uma API com base em uma palavra-chave, exibindo receitas com fotos, lista de ingredientes and modo de preparo.
 
-## Expanding the ESLint configuration
+Projeto feito com a orientação [deste tutorial](www.youtube.com/watch?v=xc4uOzlndAk), criado por [Simo Edwin](https://github.com/developedbyed/) e publicado em seu canal [developedbyed](www.youtube.com/@developedbyed). Foi ligeiramente adaptado, pois o projeto original não utilizava Vite.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Feito com Vite, React, node.js, styled components, splide, entre outros.
+
+---
+
+###### Note
+
+Cuurently, the app is facing problems in its functioning because of issues with the API that was used. I intend to rewrite the code to adapt it to another API.
+
+###### Nota
+
+Atualmente, o app enfrenta problemas de funcionamento por conta de problemas com a API utilizada. Pretendo reescrever o código para adaptá-lo a outra API.
