@@ -17,7 +17,7 @@ Feito com Vite, React, node.js, styled components, splide, entre outros.
 
 ###### Note
 
-Cuurently, the app is facing problems in its functioning because of issues with the API that was used. I intend to rewrite the code to adapt it to another API.
+Currently, the app is facing problems in its functioning because of issues with the API that was used. I intend to rewrite the code to adapt it to another API.
 
 ###### Nota
 
