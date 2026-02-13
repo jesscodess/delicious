@@ -12,7 +12,7 @@ function Popular() {
     getPopular();
   },[]);
 
-const getPopular = async () => {
+  const getPopular = async () => {
 
   const check = localStorage.getItem('popular');
 

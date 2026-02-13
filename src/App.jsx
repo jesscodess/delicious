@@ -1,8 +1,8 @@
 import Pages from './pages/Pages'
 import Category from './components/Category'
-import { BrowserRouter } from 'react-router-dom'
 import Search from './components/Search'
 import styled from 'styled-components'
+import { BrowserRouter } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import { GiKnifeFork } from 'react-icons/gi'
 
@@ -18,7 +18,6 @@ function App() {
         </Nav>
           <Search />
           <Category />
-          <Pages />
         </BrowserRouter>
       </div>
     </>

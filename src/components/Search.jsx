@@ -1,8 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
 import { useState } from 'react'
-import { FaSearch } from 'react-icons/fa'
+import styled from 'styled-components'
 import { useNavigate } from 'react-router-dom'
+import { FaSearch } from 'react-icons/fa'
 
 function Search() {
     const [input, setInput] = useState("");
@@ -20,9 +19,9 @@ function Search() {
                 <div>
                     <FaSearch></FaSearch>
                     <input
-                    onChange={(e) => setInput(e.target.value)}
+                     onChange={(e) => setInput(e.target.value)}
                      type="text"
-                    value={input}
+                     value={input}
                     />
                 </div>
             </FormStyle>

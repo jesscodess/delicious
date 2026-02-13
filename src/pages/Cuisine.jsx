@@ -1,6 +1,6 @@
 import { useState, useEffect} from 'react'
 import styled from 'styled-components'
-import {Link, useParams} from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 
 function Cuisine() {
 
@@ -17,7 +17,7 @@ function Cuisine() {
         getCuisine(params.type)
     },[params.type]);
 
-  return (
+    return (
     <Grid>
         {cuisine.map ((item) => {
             return(
